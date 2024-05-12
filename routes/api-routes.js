@@ -2,11 +2,15 @@ const router = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
 const fs = require ("fs");
 
+
+//get request to the route to api/notes
 router.get('/api/notes', async (req, res) => {
     const dbJson = await JSON.parse(fs.readFileSync("db/db.json","utf8"));
     res.json(dbJson);
   });
 
+
+  //post request for routes api/notes
   router.post('/api/notes', (req, res) => {
     const dbJson = JSON.parse(fs.readFileSync("db/db.json","utf8"));
     const newFeedback = {
@@ -19,6 +23,9 @@ router.get('/api/notes', async (req, res) => {
     res.json(dbJson);
   });
 
+
+  //delete request to delete note records
+  
   router.delete('/api/notes/:id', (req, res) => {
     let data = fs.readFileSync("db/db.json", "utf8");
     const dataJSON =  JSON.parse(data);
