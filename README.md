@@ -32,10 +32,19 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Screenshots of the functioning application
 
+# Home page of the application
 ![Home page of the application](./images/homePage.png)
+
+# Creating a new note
 ![creating a new note](./images/newNote.png)
+
+# Saving a new note
 ![saving a new note](./images/savedNewNote.png)
+
+# Deleting a saved note
 ![deleting a saved note](./images/deleteSavedNote.png)
+
+# Page after deleting the note
 ![page after deleting the note](./images/afterDeletionPage.png)
 
 
