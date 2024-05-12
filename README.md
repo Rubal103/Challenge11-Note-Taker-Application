@@ -32,11 +32,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Screenshots of the functioning application
 
-![Home page of the application] (./images/homePage.png)
-![creating a new note] (./images/newNote.png)
-![saving a new note] (./images/savedNewNote.png)
-![deleting a saved note] (./images/deleteSavedNote.png)
-![page after deleting the note] (./images/afterDeletionPage.png)
+![Home page of the application](./images/homePage.png)
+![creating a new note](./images/newNote.png)
+![saving a new note](./images/savedNewNote.png)
+![deleting a saved note](./images/deleteSavedNote.png)
+![page after deleting the note](./images/afterDeletionPage.png)
 
 
 
